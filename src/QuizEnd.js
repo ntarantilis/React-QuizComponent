@@ -11,6 +11,10 @@ class QuizEnd extends Component {
 
         return (
 
+
+
+
+
             <div>
                 <p>Thanks for playing!</p>
                 <a href='' onClick={this.handleResetClick.bind(this)}>Reset Quiz</a>
@@ -20,3 +24,6 @@ class QuizEnd extends Component {
 }
 
 export default QuizEnd;
+
+
+
